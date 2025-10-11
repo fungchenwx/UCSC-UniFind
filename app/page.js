@@ -1,7 +1,8 @@
-export default function Page() {
+export default function HomePage() {
   return (
-    <div style={{ display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center' }}>
-      <h1>Home Page</h1>
+    <div className="page-container">
+      <h2>Welcome to Student Resources</h2>
+      <p>Explore opportunities, research, scholarships, and study abroad programs!</p>
     </div>
   );
 }

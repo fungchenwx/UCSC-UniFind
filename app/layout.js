@@ -1,15 +1,17 @@
 import './globals.css';
+import Header from '../components/Header'; // correct relative path
 
 export const metadata = {
-  title: 'Resources Help',
-  description: 'Discover resources and opportunities for UCSC students',
+  title: 'Student Resources',
+  description: 'Your gateway to opportunities, research, scholarships & study abroad',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <main>{children}</main>
+        <Header />
+        <main className="main-content">{children}</main>
       </body>
     </html>
   );
