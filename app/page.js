@@ -1,0 +1,1 @@
+export default function Page() { return <h1>Hello, UCSC Course Review!</h1>; }
