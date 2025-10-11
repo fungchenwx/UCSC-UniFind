@@ -1,22 +1,15 @@
-import '../styles/globals.css';
-import Header from '../components/Header';
+import './globals.css';
 
 export const metadata = {
-  title: 'Course Tips',
-  description: 'Share and summarize course tips',
+  title: 'Resources Help',
+  description: 'Discover resources and opportunities for UCSC students',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main className="container">
-          {children}
-        </main>
-        <footer className="footer">
-          &copy; 2025 Course Tips
-        </footer>
+        <main>{children}</main>
       </body>
     </html>
   );
