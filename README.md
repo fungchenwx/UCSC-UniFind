@@ -1,4 +1,4 @@
-# UCSC Unify
+# UCSC UniFind
 
 ## Overview
 This project was created to make it easier for UCSC students to find academic and career opportunities that are often scattered across multiple university web pages.  
